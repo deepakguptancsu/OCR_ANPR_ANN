@@ -1,4 +1,19 @@
-Setup Steps:
+# OCR based Automatic Number Plate Recognition (ANPR) using Artificial Neural Network
+The project implements an OCR based license plate recognition using artificial neural network. The project has three modules - Number Plate Localization, Character Segmentation and Character Recognition.
+
+The Project is implemented in Python using Artificial Neural Network (ANN) for classification and uses libraries like Numpy, OpenCV, Pandas, Scikit-learn and Scikit-image for image processing tasks like plotting intensity histogram for number plate localization in input image and character segmentation from localized plate.
+
+## Results
+||Accuracy (in %)|
+|-----|-----|
+|Plate Localization|78.9%|
+|Character segmentation|60%|
+|Character recognition from segmented characters|55.66%|
+
+
+For detailed information see - poster.pdf and projectReport.pdf
+
+## Setup Steps
 This Environment need to be setup by using "Ubuntu 16.04 LTS Base" image. 
 
 
